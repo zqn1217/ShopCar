@@ -5,6 +5,7 @@ $(function () {
     2.设置屏幕内容的对齐方式，默认垂直居中，改成顶部对齐
     3.设置导航，设置指示器，点容器
     4.监听进入某一屏的时候 回调函数
+    5.test
      */
     $('.container').fullpage({
         //配置参数
@@ -44,6 +45,6 @@ $(function () {
             });
         },
         //页面切换的时间，默认是700ms
-        scrolllingSpeed: 1000,
+        scrolllingSpeed: 1200,
     });
 });
